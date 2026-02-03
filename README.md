@@ -22,9 +22,3 @@ conda activate fusion
 
 # Install the package
 pip install -e .
-
-## Data
-
-Download Lyft from: https://www.kaggle.com/competitions/3d-object-detection-for-autonomous-vehicles
-
-Download Nuscenes from: https://www.nuscenes.org/nuscenes
