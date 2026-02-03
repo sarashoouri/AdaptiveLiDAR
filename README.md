@@ -11,3 +11,8 @@ Multi-sensor fusion using LiDAR and RGB cameras significantly enhances 3D object
 
 
 
+## Data
+
+Download Lyft from: https://www.kaggle.com/competitions/3d-object-detection-for-autonomous-vehicles
+
+Download Nuscenes from: https://www.nuscenes.org/nuscenes
