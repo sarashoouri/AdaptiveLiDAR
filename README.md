@@ -8,7 +8,7 @@ This is the PyTorch code for our AAAI 2026 paper "Adaptive LiDAR Scanning: Harne
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](arXiv:2508.01562)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-![Overview Figure](overview.pdf)
+![Overview Figure](overview.png)
 
 ## Introduction
 
