@@ -35,6 +35,13 @@ Download Lyft from: https://www.kaggle.com/competitions/3d-object-detection-for-
 
 Download Nuscenes from: https://www.nuscenes.org/nuscenes
 
+## Disclaimer 
+ 
+This is research-grade code, so it's possible you will encounter some hiccups. Contact me if you encounter problems or if the documentation is unclear, and I will do my best to help.
+
+## Acknowledgement
+
+This repository borrows partial codes from [CMT](https://github.com/junjie18/CMT/tree/master). Many thanks to them!
 
 ## Citation
 
