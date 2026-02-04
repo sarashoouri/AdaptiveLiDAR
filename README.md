@@ -5,7 +5,7 @@
 This is the PyTorch code for our AAAI 2026 paper "Adaptive LiDAR Scanning: Harnessing Temporal Cues for Efficient 3D Object Detection via Multi-Modal Fusion
 ". 
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](arXiv:2508.01562)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2508.01562)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ![Overview Figure](overview.png)
