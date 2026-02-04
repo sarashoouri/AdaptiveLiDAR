@@ -3,7 +3,9 @@
 ## Overview
 
 This is the PyTorch code for our AAAI 2026 paper "Adaptive LiDAR Scanning: Harnessing Temporal Cues for Efficient 3D Object Detection via Multi-Modal Fusion
-". You can find the paper here: [arXiv:2508.01562](https://arxiv.org/abs/2508.01562)
+". 
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](arXiv:2508.01562)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Introduction
 
@@ -22,3 +24,10 @@ conda activate fusion
 
 # Install the package
 pip install -e .
+```
+
+## Data
+
+Download Lyft from: https://www.kaggle.com/competitions/3d-object-detection-for-autonomous-vehicles
+
+Download Nuscenes from: https://www.nuscenes.org/nuscenes
