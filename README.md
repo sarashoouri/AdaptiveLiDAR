@@ -34,3 +34,17 @@ pip install -e .
 Download Lyft from: https://www.kaggle.com/competitions/3d-object-detection-for-autonomous-vehicles
 
 Download Nuscenes from: https://www.nuscenes.org/nuscenes
+
+
+## Citation
+
+If you use this project in your research, please cite:
+
+```bibtex
+@article{shoouri2025adaptive,
+  title={Adaptive LiDAR Scanning: Harnessing Temporal Cues for Efficient 3D Object Detection via Multi-Modal Fusion},
+  author={Shoouri, Sara and Taba, Morteza Tavakoli and Kim, Hun-Seok},
+  journal={arXiv preprint arXiv:2508.01562},
+  year={2025}
+}
+```
