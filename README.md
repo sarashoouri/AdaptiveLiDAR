@@ -62,7 +62,7 @@ Follow the [mmdet3d](https://github.com/open-mmlab/mmdetection3d/blob/master/doc
 
 It is recommended to symlink the dataset root to `$MMDETECTION3D/data`.
 ```
-mmdetection3d
+mmdetection3d/CMT
 ├── mmdet3d
 ├── tools
 ├── configs
