@@ -43,11 +43,54 @@ spconv-cu111 == 2.1.21 \
 
 ## Data
 
-Download Lyft from: https://www.kaggle.com/competitions/3d-object-detection-for-autonomous-vehicles
+Download Lyft 3D detection data [HERE](https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles/data). Prepare Lyft data by running
 
-Download Nuscenes from: https://www.nuscenes.org/nuscenes
+```bash
+python tools/create_data.py lyft --root-path ./data/lyft --out-dir ./data/lyft --extra-tag lyft --version v1.01
+python tools/data_converter/lyft_data_fixer.py --version v1.01 --root-folder ./data/lyft
+```
+
+Download nuScenes V1.0 full dataset data [HERE](https://www.nuscenes.org/download).  Prepare nuscenes data by running
+
+```bash
+python tools/create_data.py nuscenes --root-path ./data/nuscenes --out-dir ./data/nuscenes --extra-tag nuscenes
+```
 
 Follow the [mmdet3d](https://github.com/open-mmlab/mmdetection3d/blob/master/docs/en/data_preparation.md) to process both datasets.
+
+## Project Directory
+
+It is recommended to symlink the dataset root to `$MMDETECTION3D/data`.
+```
+mmdetection3d
+├── mmdet3d
+├── tools
+├── configs
+├── data
+│   ├── nuscenes
+│   │   ├── maps
+│   │   ├── samples
+│   │   ├── sweeps
+│   │   ├── v1.0-test
+|   |   ├── v1.0-trainval
+│   ├── lyft
+│   │   ├── v1.01-train
+│   │   │   ├── v1.01-train (train_data)
+│   │   │   ├── lidar (train_lidar)
+│   │   │   ├── images (train_images)
+│   │   │   ├── maps (train_maps)
+│   │   ├── v1.01-test
+│   │   │   ├── v1.01-test (test_data)
+│   │   │   ├── lidar (test_lidar)
+│   │   │   ├── images (test_images)
+│   │   │   ├── maps (test_maps)
+│   │   ├── train.txt
+│   │   ├── val.txt
+│   │   ├── test.txt
+│   │   ├── sample_submission.csv
+
+```
+
 
 ## Disclaimer 
  
