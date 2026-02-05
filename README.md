@@ -28,12 +28,26 @@ conda activate fusion
 # Install the package
 pip install -e .
 ```
+## Preparation
+
+* Environments  
+Python == 3.8 \
+CUDA == 11.1 \
+pytorch == 1.9.0 \
+mmcv-full == 1.6.0 \
+mmdet == 2.24.0 \
+mmsegmentation == 0.29.1 \
+mmdet3d == 1.0.0rc5 \
+spconv-cu111 == 2.1.21 \
+[flash-attn](https://github.com/HazyResearch/flash-attention) == 0.2.2
 
 ## Data
 
 Download Lyft from: https://www.kaggle.com/competitions/3d-object-detection-for-autonomous-vehicles
 
 Download Nuscenes from: https://www.nuscenes.org/nuscenes
+
+Follow the [mmdet3d](https://github.com/open-mmlab/mmdetection3d/blob/master/docs/en/data_preparation.md) to process both datasets.
 
 ## Disclaimer 
  
